@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>琴台暮云 · 个人主页</title>
+  <meta name="description" content="琴台暮云的个人主页与联系方式">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600&family=Noto+Sans+SC:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="sky" aria-hidden="true">
+    <div class="glow glow--dusk"></div>
+    <div class="glow glow--ember"></div>
+    <div class="cloud cloud--far"></div>
+    <div class="cloud cloud--mid"></div>
+    <div class="grain"></div>
+  </div>
+
+  <aside class="verse" aria-hidden="true">酒肆人间世<br>琴台日暮云</aside>
+  <div class="seal" aria-hidden="true"><span>琴台</span><span>暮云</span></div>
+
+  <div class="page">
+    <header class="profile">
+      <h1 class="profile-name" id="profile-name">加载中…</h1>
+      <p class="profile-title" id="profile-title"></p>
+      <p class="profile-bio" id="profile-bio"></p>
+    </header>
+
+    <main>
+      <h2 class="section-title">找到我</h2>
+      <ul class="link-list" id="link-list"></ul>
+      <noscript>
+        <p class="noscript-tip">
+          这个页面的链接卡片需要 JavaScript 才能显示。请开启浏览器的 JavaScript，
+          或直接访问：mail.qq.com、mail.google.com、github.com、space.bilibili.com
+        </p>
+      </noscript>
+    </main>
+
+    <footer class="site-footer">
+      <span id="year"></span> <span id="footer-name"></span>
+    </footer>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
